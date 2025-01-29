@@ -14,7 +14,7 @@ apt update && apt upgrade -y
 
 apt install sudo dos2unix -y 
 
-sudo git clone https://github.com/Whaticket-Free/Instalador-PgAdmin-Whaticket-SaaS.git && cd Instalador-PgAdmin-Whaticket-SaaS && sudo chmod +x ./pgadmin.sh
+sudo git clone https://github.com/launcherbr/instalador-pgadmin.git && cd instalador-pgadmin && sudo chmod +x ./pgadmin.sh
 
 dos2unix pgadmin.sh
 
